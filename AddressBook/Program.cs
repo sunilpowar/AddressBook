@@ -13,7 +13,7 @@ namespace AddressBook
             Console.WriteLine("Welcome to Address Book Program\n");
 
             AddressBook addressBook = new AddressBook();
-            addressBook.AddContactDetails("Guruprasad", "Kumbar", "Kothali", "Chikodi", "Karnataka", 591287, 9113544214, "guruprasadk.dev@gmail.com");
+            addressBook.AddContactDetails("Sunil", "Powar", "Chikhali", "Kagal", "Maharashtra", 416235, 9970965164, "sunilpowarsp8468@gmail.com");
 
             Console.WriteLine("Please choose an option from the below list");
             Console.WriteLine("\n1. Add New Contact \n2. View Contact \n3. Edit Contact \n4. Delete Contact \n5. Exit\n");

@@ -1,0 +1,8 @@
+C:\Users\Shree\source\repos\AddressBook\AddressBook\bin\Debug\AddressBook.exe.config
+C:\Users\Shree\source\repos\AddressBook\AddressBook\bin\Debug\AddressBook.exe
+C:\Users\Shree\source\repos\AddressBook\AddressBook\bin\Debug\AddressBook.pdb
+C:\Users\Shree\source\repos\AddressBook\AddressBook\obj\Debug\AddressBook.csproj.AssemblyReference.cache
+C:\Users\Shree\source\repos\AddressBook\AddressBook\obj\Debug\AddressBook.csproj.SuggestedBindingRedirects.cache
+C:\Users\Shree\source\repos\AddressBook\AddressBook\obj\Debug\AddressBook.csproj.CoreCompileInputs.cache
+C:\Users\Shree\source\repos\AddressBook\AddressBook\obj\Debug\AddressBook.exe
+C:\Users\Shree\source\repos\AddressBook\AddressBook\obj\Debug\AddressBook.pdb
