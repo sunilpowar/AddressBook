@@ -128,5 +128,55 @@ namespace AddressBook
                 }
             }
         }
+        public void AddAddressBook(string newAddressBook)
+        {
+            if (addressBookDict.ContainsKey(newAddressBook))
+            {
+                Console.WriteLine("Address Book Name Already Exists");
+            }
+            else
+            {
+                AddressBook addressBook = new AddressBook();
+                addressBookDict.Add(newAddressBook, addressBook);
+                Console.WriteLine("AddressBook {0} Created Successfully.", newAddressBook);
+            }
+        }
+
+
+        public void ViewAddressBooks()
+        {
+            foreach (var book in addressBookDict)
+            {
+                Console.WriteLine(book.Key);
+            }
+
+        }
+
+        public string CheckAddressBook(string adBookName)
+        {
+            foreach (var book in addressBookDict)
+            {
+                if (book.Key == adBookName)
+                {
+                    return adBookName;
+                }
+            }
+            return null;
+
+        }
+        public string CheckAddressBook(string adBookName)
+        {
+            foreach (var book in addressBookDict)
+            {
+                if (book.Key == adBookName)
+                {
+                    return adBookName;
+                }
+            }
+            return null;
+
+        }
     }
 }
+    
+
