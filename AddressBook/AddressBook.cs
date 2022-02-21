@@ -20,11 +20,6 @@ namespace AddressBook
             state_Person = new Dictionary<string, List<Contact>>();
         }
 
-        internal void AddContactDetails(string v1, string v2, string v3, string v4, string v5, int v6, long v7, string v8)
-        {
-            throw new NotImplementedException();
-        }
-
         // UC1 - Create Contacts in address book
         public void AddContactDetails(string firstName, string lastName, string address, string city, string state, int zipcode, long phoneNumber, string email, string bookName)
         {
@@ -303,6 +298,15 @@ namespace AddressBook
                 default:
                     Console.WriteLine("Choose correct option");
                     break;
+            }
+        }
+
+        //UC11 Sort by person Name
+        public void SortByName(string bookName)
+        {
+            foreach (var person in addressBookDict[bookName].contactList.OrderBy(x => x.firstName))
+            {
+                Console.WriteLine(person.ToString());
             }
         }
     }

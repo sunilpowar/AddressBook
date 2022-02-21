@@ -90,6 +90,10 @@ namespace AddressBook
                             addressBook.CountPersonByCityOrState();
                             break;
                         case 12:
+                            Console.WriteLine("\nSort by person Name:");
+                            addressBook.SortByName(bookName);
+                            break;
+                        case 13:
                             Environment.Exit(0);
                             break;
                         default:
