@@ -176,6 +176,18 @@ namespace AddressBook
             return null;
 
         }
+        public string CheckAddressBook(string adBookName)
+        {
+            foreach (var book in addressBookDict)
+            {
+                if (book.Key == adBookName)
+                {
+                    return adBookName;
+                }
+            }
+            return null;
+
+        }
     }
 }
     
