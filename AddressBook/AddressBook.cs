@@ -188,6 +188,22 @@ namespace AddressBook
             return null;
 
         }
+        public void SearchPersonByCityOrState(string userData)
+        {
+            foreach (var book in addressBookDict)
+            {
+                var searchResut = book.Value.contactList.FindAll(x => x.city == userData || x.state == userData);
+                if (searchResut.Count != 0)
+                {
+                    foreach (var item in searchResut)
+                    {
+                        Console.WriteLine(item.ToString());
+                    }
+                }
+                else
+                    Console.WriteLine("No person found for this city or state");
+            }
+        }
     }
 }
     
