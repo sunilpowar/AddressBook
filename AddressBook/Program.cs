@@ -12,9 +12,10 @@ namespace AddressBook
         {
             Console.WriteLine("Welcome to Address Book Program\n");
 
-            AddressBook addressBook = new AddressBook();
-            addressBook.AddContactDetails("Guruprasad", "Kumbar", "Kothali", "Chikodi", "Karnataka", 591287, 9113544214, "guruprasadk.dev@gmail.com");
-            addressBook.AddContactDetails("Guru", "K", "Marathahalli", "Bangalore", "Karnataka", 560037, 9113544214, "guru@gmail.com");
+           
+             AddressBook addressBook = new AddressBook();
+            addressBook.AddContactDetails("Sunil", "Powar", "Chikhali", "Kagal", "Maharashtra", 416235, 9970965164, "sunilpowarsp8468@gmail.com");
+
 
             while (true)
             {
